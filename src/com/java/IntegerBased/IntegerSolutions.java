@@ -11,5 +11,7 @@ public class IntegerSolutions {
 		 * 
 		 * For numbers which are multiples of both three and five print "FizzBuzz". 
 		 */
+		FizzBuzz fb = new FizzBuzz();
+		System.out.println(fb.fizzBuzz(20));
 	}
 }
