@@ -30,18 +30,25 @@ public class IntegerSolutions {
 		System.out.println(sn.singleNumberUsingXOR(num));
 		
 		/*
-		 * Write a program to reverse an integer assuming that the input is a 32-bit integer. 
+		 * 3. Write a program to reverse an integer assuming that the input is a 32-bit integer. 
 		 * 
 		 * If the reversed integer overflows, print 0 as the output. 
 		 */
 		ReverseInteger rev = new ReverseInteger();
-//		int number = 12345;
-//	    System.out.println("Reverse of no. is " + rev.reversDigits(number) );
-//	 
-//	    number = 1000000045;
-//	    System.out.println("Reverse of no. is " + rev.reversDigits(number) );
-	    
-	    int number = -7895;
+		int number = 12345;
 	    System.out.println("Reverse of no. is " + rev.reversDigits(number) );
+	 
+	    number = 1000000045;
+	    System.out.println("Reverse of no. is " + rev.reversDigits(number) );
+	    
+	    number = -7895;
+	    System.out.println("Reverse of no. is " + rev.reversDigits(number) );
+	    
+	    number = 12321;
+	    System.out.println("Reverse of no. is " + rev.reversDigits(number) );
+	    if(rev.isPalindrome(number))
+	    	System.out.println(number + " is Palindrome.");
+	    else
+	    	System.out.println(number + " is not a Palindrome.");
 	}
 }
